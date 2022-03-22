@@ -1,0 +1,23 @@
+# Site settings
+baseurl = "https://raysuhyunlee.github.io/"
+title = "Ray's Garage"
+theme = "story"
+paginate = 5
+buildFuture = true
+staticDir = 'static'
+
+[[menu.social]]
+  name = "GitHub"
+  title = "fab fa-github-square"
+  url = "https://github.com/raysuhyunlee"
+
+[params]
+  author = "Ray Suhyun Lee"
+  classes = []
+
+[outputs]
+  home = ["HTML", "JSON", "RSS"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML", "RSS"]

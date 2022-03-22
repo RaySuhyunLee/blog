@@ -1,0 +1,3 @@
+[submodule "story"]
+	path = themes/story
+	url = git@github.com:RaySuhyunLee/story.git
