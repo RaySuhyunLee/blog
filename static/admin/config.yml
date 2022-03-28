@@ -1,0 +1,19 @@
+backend:
+  name: git-gateway
+  branch: master
+publish_mode: editorial_workflow
+media_folder: "static/img/uploads"
+public_folder: "/img/uploads"
+collections:
+  - name: "blog" # Used in routes
+    label: "Blog" # Used in the UI
+    folder: "content/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "string" }
+      - {label: "Featured Image", name: "image", widget: "image"}
+      - {label: "Thumbnail", name: "thumbnail", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
