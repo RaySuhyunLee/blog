@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://raysuhyunlee.github.io/"
+baseurl = "https://raysuhyunlee.cc/"
 title = "Ray's Garage"
 theme = "story"
 paginate = 5
